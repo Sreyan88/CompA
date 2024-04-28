@@ -40,6 +40,10 @@ Use the following command after updating the resume ckpt (the ckpt from training
 sh resume.sh
 ```
 
+## 🌻 Acknowledgement
+This repository benefits from [CLAP](https://github.com/LAION-AI/CLAP). Thanks for their awesome works.
+
+
 ## Citation
 ```BibTex
 @inproceedings{
