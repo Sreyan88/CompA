@@ -40,6 +40,20 @@ Use the following command after updating the resume ckpt (the ckpt from training
 sh resume.sh
 ```
 
+### Evaluation
+
+1. For **Zero-Shot evaluation**:
+
+```shell
+python zshot.py <test_files_dir_path> <class_label_to_idx_file_path> <clap_ckpt_path>
+```
+
+1. For **CompA-Order and CompA-Attribute evaluations**:
+
+```shell
+python benchmark_eval.py <benchmark_gile_path> <audio_dir_path> <clap_ckpt_path>
+```
+
 ## 🌻 Acknowledgement
 This repository benefits from [CLAP](https://github.com/LAION-AI/CLAP). Thanks for their awesome works.
 

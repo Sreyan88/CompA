@@ -4,28 +4,26 @@ import json
 import torch
 import numpy as np
 from torch.utils.data import DataLoader, Dataset
+import sys
 
 device = torch.device('cuda')
 
-# download https://drive.google.com/drive/folders/1scyH43eQAcrBz-5fAw44C6RNBhC3ejvX?usp=sharing and extract ./ESC50_1/test/0.tar to ./ESC50_1/test/
-# esc50_test_dir = './ESC50_1/test/'
-# class_index_dict_path = './class_labels/ESC50_class_labels_indices_space.json'
-
-esc50_test_dir = '.audio-dataset/download_script/UrbanSound8K/UrbanSound8K/processed/'
-class_index_dict_path = '.CLAP/class_labels/UrbanSound8K_class_labels_indices.json'
+test_dir = sys.argv[1]
+class_index_dict_path = sys.argv[2]
+ckpt_path = sys.argv[3]
 
 # Load the model
 model = CLAP_Module(enable_fusion=True, device=device, amodel= 'HTSAT-tiny', tmodel='t5')
-model.load_ckpt("./final_training_sk10-resume3/checkpoints/epoch_40.pt")
+model.load_ckpt(ckpt_path)
 
 # Get the class index dict
 class_index_dict = {v: k for v, k in json.load(open(class_index_dict_path)).items()}
 all_texts = ["This is a sound of " + t for t in class_index_dict.keys()]
 
 # Get all the data
-audio_files = sorted(glob.glob(esc50_test_dir + '*.flac', recursive=True))
+audio_files = sorted(glob.glob(test_dir + '*.flac', recursive=True))
 print(len(audio_files))
-json_files = sorted(glob.glob(esc50_test_dir + '*.json', recursive=True))
+json_files = sorted(glob.glob(test_dir + '*.json', recursive=True))
 ground_truth_idx = [class_index_dict[json.load(open(jf))['tags'][0]] for jf in json_files]
 
 batch_size = 32
@@ -41,12 +39,10 @@ class CustomDataset(Dataset):
     def __getitem__(self, idx):
         return self.audio_files[idx], self.ground_truth[idx]
 
-# Define a custom collate function to stack audio tensors into a batch
 def custom_collate_fn(batch):
     audio_batch, ground_truth_batch = zip(*batch)
     return audio_batch, ground_truth_batch
 
-# Create DataLoader instances for the custom dataset
 custom_dataset = CustomDataset(audio_files, ground_truth_idx)
 custom_loader = DataLoader(custom_dataset, batch_size=batch_size, shuffle=False, collate_fn=custom_collate_fn)
 
@@ -57,7 +53,6 @@ for audio_batch, ground_truth_batch in (custom_loader):
     if audio_batch == None:
         break
     with torch.no_grad():
-        # Pass the batches through your model for text and audio embeddings
         text_embed = model.get_text_embedding(all_texts)
         audio_embed = model.get_audio_embedding_from_filelist(audio_batch)
 
