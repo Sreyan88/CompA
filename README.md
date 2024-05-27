@@ -42,17 +42,25 @@ sh resume.sh
 
 ### Evaluation
 
+The evaluation files need `hook.py` from [CLAP](https://github.com/LAION-AI/CLAP) repository. PLease place the files in `CLAP/src/laion_clap/` folder and run the below commands as required.
+
 1. For **Zero-Shot evaluation**:
 
 ```shell
-python zshot.py <test_files_dir_path> <class_label_to_idx_file_path> <clap_ckpt_path>
+python ./evaluation/zshot.py <test_files_dir_path> <class_label_to_idx_file_path> <clap_ckpt_path>
 ```
+test_files_dir_path - Path to the folder which contains audio files and their respective jsons. This format can be obtained by using the [audio-dataset](https://github.com/LAION-AI/audio-dataset/tree/main) repo.
+<br>
+class_label_to_idx_file_path - Path to the file which contains class label and its respective index in the format of a python dictionary. These files can be found in `CLAP/class_labels`.
 
-1. For **CompA-Order and CompA-Attribute evaluations**:
+2. For **CompA-Order and CompA-Attribute evaluations**:
 
 ```shell
-python benchmark_eval.py <benchmark_gile_path> <audio_dir_path> <clap_ckpt_path>
+python ./evaluation/benchmark_eval.py <benchmark_file_path> <audio_dir_path> <clap_ckpt_path>
 ```
+
+benchmark_file_path - Path to CompA-Order or CompA-Attribute benchmark file.<br>
+audio_dir_path - After downloading and extracting from the link provided, the path to CompA_order_files or CompA_attribute_files folder.
 
 ## 🌻 Acknowledgement
 This repository benefits from [CLAP](https://github.com/LAION-AI/CLAP). Thanks for their awesome works.
