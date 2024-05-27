@@ -1,0 +1,150 @@
+('Bird sounds' + 'Nature sound') * ('Land Animal sounds' + 'Human Speech')
+'Tools and equipment' * ('Construction Sound' + 'Vehicle sound' + 'Impact and Breaking Sounds')
+('Household and indoor sounds' * 'Human Sound') * ('Mechanical and Electrical sounds' + 'Alarm, Bell and Siren')
+'Singing' * ('Crowd sound' + 'Human Speech' + 'Nature sound')
+('Nature sound' + 'Land Animal sounds') * ('Bird sounds' + 'Human Speech')
+'Mechanical and Electrical sounds' * ('Human Sound' + 'Construction Sound' + 'Impact and Breaking Sounds')
+('Singing' + 'Crowd sound') * ('Human Speech' + 'Nature sound')
+'Alarm, Bell and Siren' * ('Human Sound' + 'Impact and Breaking Sounds' + 'Vehicle sound')
+('Vehicle sound' + 'Construction Sound') * ('Nature sound' + 'Impact and Breaking Sounds')
+'Human Speech' * ('Singing' + 'Crowd sound' + 'Nature sound')
+('Household and indoor sounds' + 'Tools and equipment') * ('Mechanical and Electrical sounds' + 'Construction Sound')
+'Bird sounds' * ('Nature sound' + 'Land Animal sounds' + 'Human Speech')
+('Impact and Breaking Sounds' + 'Construction Sound') * ('Vehicle sound' + 'Alarm, Bell and Siren')
+'Crowd sound' * ('Singing' + 'Human Speech' + 'Nature sound')
+('Mechanical and Electrical sounds' + 'Alarm, Bell and Siren') * ('Human Sound' + 'Household and indoor sounds')
+'Land Animal sounds' * ('Bird sounds' + 'Nature sound' + 'Human Speech')
+('Household and indoor sounds' + 'Construction Sound') * ('Tools and equipment' + 'Mechanical and Electrical sounds')
+'Singing' * ('Crowd sound' + 'Human Speech' + 'Nature sound')
+('Vehicle sound' + 'Alarm, Bell and Siren') * ('Crowd sound' + 'Construction Sound')
+'Construction Sound' * ('Mechanical and Electrical sounds' + 'Impact and Breaking Sounds' + 'Vehicle sound')
+('Bird sounds' + 'Nature sound') * ('Land Animal sounds' + 'Human Speech')
+'Tools and equipment' * ('Household and indoor sounds' + 'Mechanical and Electrical sounds' + 'Construction Sound')
+('Singing' + 'Human Speech') * ('Nature sound' + 'Crowd sound')
+'Crowd sound' * ('Human Sound' + 'Alarm, Bell and Siren' + 'Vehicle sound')
+('Vehicle sound' + 'Construction Sound') * ('Impact and Breaking Sounds' + 'Nature sound')
+'Household and indoor sounds' * ('Nature sound' + 'Human Sound' + 'Singing')
+('Mechanical and Electrical sounds' + 'Construction Sound') * ('Tools and equipment' + 'Human Sound')
+'Human Speech' * ('Singing' + 'Nature sound' + 'Crowd sound')
+('Bird sounds' + 'Land Animal sounds') * ('Nature sound' + 'Human Speech')
+'Alarm, Bell and Siren' * ('Human Sound' + 'Crowd sound' + 'Vehicle sound')
+('Impact and Breaking Sounds' + 'Vehicle sound') * ('Construction Sound' + 'Nature sound')
+'Construction Sound' * ('Mechanical and Electrical sounds' + 'Vehicle sound' + 'Human Sound')
+('Human Sound' + 'Household and indoor sounds') * ('Mechanical and Electrical sounds' + 'Tools and equipment')
+'Nature sound' * ('Bird sounds' + 'Land Animal sounds' + 'Human Speech')
+('Singing' + 'Crowd sound') * ('Human Speech' + 'Nature sound')
+'Alarm, Bell and Siren' * ('Vehicle sound' + 'Impact and Breaking Sounds' + 'Construction Sound')
+('Tools and equipment' + 'Construction Sound') * ('Human Sound' + 'Mechanical and Electrical sounds')
+'Crowd sound' * ('Human Speech' + 'Singing' + 'Nature sound')
+('Nature sound' + 'Land Animal sounds') * ('Bird sounds' + 'Human Speech')
+'Mechanical and Electrical sounds' * ('Human Sound' + 'Alarm, Bell and Siren' + 'Household and indoor sounds')
+('Vehicle sound' + 'Construction Sound') * ('Crowd sound' + 'Impact and Breaking Sounds')
+'Household and indoor sounds' * ('Nature sound' + 'Singing' + 'Human Sound')
+('Impact and Breaking Sounds' + 'Alarm, Bell and Siren') * ('Vehicle sound' + 'Construction Sound')
+'Construction Sound' * ('Mechanical and Electrical sounds' + 'Vehicle sound' + 'Tools and equipment')
+('Bird sounds' + 'Land Animal sounds') * ('Nature sound' + 'Human Speech')
+'Alarm, Bell and Siren' * ('Human Sound' + 'Crowd sound' + 'Vehicle sound')
+('Vehicle sound' + 'Construction Sound') * ('Crowd sound' + 'Nature sound')
+'Human Speech' * ('Singing' + 'Nature sound' + 'Crowd sound')
+('Household and indoor sounds' + 'Mechanical and Electrical sounds') * ('Tools and equipment' + 'Construction Sound')
+'Bird sounds' * ('Nature sound' + 'Land Animal sounds' + 'Human Speech')
+('Vehicle sound' + 'Impact and Breaking Sounds') * 'Nature sound'
+('Human Sound' + 'Mechanical and Electrical sounds') * 'Crowd sound'
+('Land Animal sounds' + 'Bird sounds') * 'Nature sound'
+'Alarm, Bell and Siren' * ('Vehicle sound' + 'Crowd sound')
+('Singing' + 'Human Speech') * 'Crowd sound'
+'Construction Sound' * ('Vehicle sound' + 'Impact and Breaking Sounds')
+('Nature sound' + 'Bird sounds') * 'Land Animal sounds'
+'Human Sound' * ('Mechanical and Electrical sounds' + 'Household and indoor sounds')
+('Alarm, Bell and Siren' + 'Vehicle sound') * 'Crowd sound'
+('Tools and equipment' + 'Construction Sound') * 'Mechanical and Electrical sounds'
+'Household and indoor sounds' * ('Nature sound' + 'Bird sounds')
+('Land Animal sounds' + 'Nature sound') * 'Human Speech'
+'Mechanical and Electrical sounds' * ('Human Sound' + 'Construction Sound')
+('Singing' + 'Crowd sound') * 'Human Speech'
+'Alarm, Bell and Siren' * ('Human Sound' + 'Impact and Breaking Sounds')
+('Vehicle sound' + 'Construction Sound') * 'Nature sound'
+'Human Speech' * ('Singing' + 'Crowd sound')
+('Household and indoor sounds' + 'Tools and equipment') * 'Mechanical and Electrical sounds'
+'Bird sounds' * ('Nature sound' + 'Land Animal sounds')
+('Impact and Breaking Sounds' + 'Construction Sound') * 'Vehicle sound'
+'Crowd sound' * ('Singing' + 'Human Speech')
+('Mechanical and Electrical sounds' + 'Alarm, Bell and Siren') * 'Human Sound'
+'Land Animal sounds' * ('Bird sounds' + 'Nature sound')
+('Household and indoor sounds' + 'Construction Sound') * 'Tools and equipment'
+'Singing' * ('Crowd sound' + 'Human Speech')
+('Vehicle sound' + 'Alarm, Bell and Siren') * 'Crowd sound'
+'Construction Sound' * ('Mechanical and Electrical sounds' + 'Impact and Breaking Sounds')
+('Bird sounds' + 'Nature sound') * 'Land Animal sounds'
+'Tools and equipment' * ('Household and indoor sounds' + 'Mechanical and Electrical sounds')
+('Singing' + 'Human Speech') * 'Nature sound'
+'Crowd sound' * ('Human Sound' + 'Alarm, Bell and Siren')
+('Vehicle sound' + 'Construction Sound') * 'Impact and Breaking Sounds'
+'Household and indoor sounds' * ('Nature sound' + 'Human Sound')
+('Mechanical and Electrical sounds' + 'Construction Sound') * 'Tools and equipment'
+'Human Speech' * ('Singing' + 'Nature sound')
+('Bird sounds' + 'Land Animal sounds') * 'Nature sound'
+'Alarm, Bell and Siren' * ('Human Sound' + 'Crowd sound')
+('Impact and Breaking Sounds' + 'Vehicle sound') * 'Construction Sound'
+'Construction Sound' * ('Mechanical and Electrical sounds' + 'Vehicle sound')
+('Human Sound' + 'Household and indoor sounds') * 'Mechanical and Electrical sounds'
+'Nature sound' * ('Bird sounds' + 'Land Animal sounds')
+('Singing' + 'Crowd sound') * 'Human Speech'
+'Alarm, Bell and Siren' * ('Vehicle sound' + 'Impact and Breaking Sounds')
+('Tools and equipment' + 'Construction Sound') * 'Human Sound'
+'Crowd sound' * ('Human Speech' + 'Singing')
+('Nature sound' + 'Land Animal sounds') * 'Bird sounds'
+'Mechanical and Electrical sounds' * ('Human Sound' + 'Alarm, Bell and Siren')
+('Vehicle sound' + 'Construction Sound') * 'Crowd sound'
+'Household and indoor sounds' * ('Nature sound' + 'Singing')
+('Impact and Breaking Sounds' + 'Alarm, Bell and Siren') * 'Vehicle sound'
+'Nature sound' * 'Bird sounds'
+'Vehicle sound' * 'Alarm, Bell and Siren'
+'Land Animal sounds' * 'Nature sound'
+'Singing' * 'Crowd sound'
+'Human Sound' * 'Household and indoor sounds'
+'Mechanical and Electrical sounds' * 'Tools and equipment'
+'Alarm, Bell and Siren' * 'Crowd sound'
+'Construction Sound' * 'Vehicle sound'
+'Household and indoor sounds' * 'Nature sound'
+'Tools and equipment' * 'Construction Sound'
+'Bird sounds' * 'Land Animal sounds'
+'Impact and Breaking Sounds' * 'Construction Sound'
+'Human Speech' * 'Crowd sound'
+'Vehicle sound' * 'Crowd sound'
+'Land Animal sounds' * 'Bird sounds'
+'Singing' * 'Human Speech'
+'Human Sound' * 'Mechanical and Electrical sounds'
+'Mechanical and Electrical sounds' * 'Alarm, Bell and Siren'
+'Alarm, Bell and Siren' * 'Vehicle sound'
+'Construction Sound' * 'Impact and Breaking Sounds'
+'Household and indoor sounds' * 'Tools and equipment'
+'Tools and equipment' * 'Human Sound'
+'Bird sounds' * 'Nature sound'
+'Impact and Breaking Sounds' * 'Vehicle sound'
+'Human Speech' * 'Singing'
+'Vehicle sound' * 'Construction Sound'
+'Land Animal sounds' * 'Nature sound'
+'Singing' * 'Crowd sound'
+'Human Sound' * 'Household and indoor sounds'
+'Mechanical and Electrical sounds' * 'Construction Sound'
+'Alarm, Bell and Siren' * 'Crowd sound'
+'Construction Sound' * 'Tools and equipment'
+'Household and indoor sounds' * 'Nature sound'
+'Tools and equipment' * 'Construction Sound'
+'Bird sounds' * 'Land Animal sounds'
+'Impact and Breaking Sounds' * 'Construction Sound'
+'Human Speech' * 'Crowd sound'
+'Vehicle sound' * 'Alarm, Bell and Siren'
+'Land Animal sounds' * 'Bird sounds'
+'Singing' * 'Human Speech'
+'Human Sound' * 'Mechanical and Electrical sounds'
+'Mechanical and Electrical sounds' * 'Household and indoor sounds'
+'Alarm, Bell and Siren' * 'Vehicle sound'
+'Construction Sound' * 'Impact and Breaking Sounds'
+'Household and indoor sounds' * 'Human Sound'
+'Tools and equipment' * 'Mechanical and Electrical sounds'
+'Bird sounds' * 'Nature sound'
+'Impact and Breaking Sounds' * 'Vehicle sound'
+'Human Speech' * 'Singing'
+'Vehicle sound' * 'Construction Sound'

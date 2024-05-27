@@ -1,0 +1,477 @@
+nature sound:
+   - Environmental noise
+   - Background noise
+   - Channel, environment and background
+   - Wind
+   - Wind noise (microphone)
+   - Wind chime
+   - Howl (wind)
+   - Stream, river
+   - Eruption
+   - Thunder
+   - Sonic boom
+   - Waves, surf
+   - Trickle, dribble
+   - Drip
+   - Splinter
+   - Rain on surface
+   - Raindrop 
+   - Rain
+   - Accelerating, revving, vroom
+   - Boom
+   - Ocean
+   - Fill (with liquid)
+
+vehicle sound:
+   - Motorboat, speedboat
+   - Helicopter
+   - Sailboat, sailing ship
+   - Truck
+   - Air horn, truck horn
+   - Aircraft engine
+   - Jet engine 
+   - Vehicle horn, car horn, honking, toot
+   - Bicycle, tricycle
+   - Air horn, truck horn
+   - Ship
+   - Motorcycle
+   - Rowboat, canoe, kayak
+   - Cart
+   - Idling
+   - Light engine (high frequency)
+   - Heavy engine (low frequency)
+   - Medium engine (mid frequency)
+   - Engine
+   - Engine starting
+   - Vehicle
+   - Vehicle horn, car horn, honking, toot
+   - Emergency vehicle
+   - Non-motorized land vehicle
+   - Motor vehicle (road)
+   - Propeller, airscrew
+   - Air brake
+   - Ice cream truck, ice cream van
+   - Train horn
+   - Railroad car, train wagon
+   - Train wheels squealing
+   - Train whistle
+   - Train
+   - Bus
+   - Rail transport
+   - Truck
+   - Traffic noise, roadway noise
+   - Boat, Water vehicle
+   - Skateboard
+   - Car
+   - Car passing by
+   - Race car, auto racing
+
+bird sounds:
+   - Chirp, tweet
+   - Bird vocalization, bird call, bird song
+   - Bird
+   - Bird flight, flapping wings
+   - Pigeon, dove
+   - Crow
+   - Ducks, geese, waterfowl
+   - Ducks, geese, waterfowl
+   - Chicken, rooster
+   - Chirp tone
+   - Coo
+   - Owl
+   - Crowing, cock-a-doodle-doo
+   - Squawk
+
+land animal sounds:
+   - Snake
+   - Turkey
+   - Roaring cats (lions, tigers)
+   - Animal
+   - Whimper (dog)
+   - Donkey, ass
+   - Bleat
+   - Fly, housefly
+   - Domestic animals, pets
+   - Fowl
+   - Rattle
+   - Howl
+   - Caterwaul
+   - Goat
+   - Quack
+   - Yak
+   - Pig
+   - Cattle, bovinae
+   - Croak
+   - Wolf-whistling
+   - Cricket
+   - Horse
+   - Snort (horse)
+   - Neigh, whinny
+   - Rodents, rats, mice
+   - Moo
+   - Dog
+   - Bark
+   - Bow-wow
+   - Pant (dog)
+   - Caw
+   - Cluck
+   - Livestock, farm animals, working animals
+   - Growling
+   - Wild animals
+   - Mouse
+   - Oink
+   - Sheep
+   - Insect
+   - Chipmunk
+   - Cat
+   - Purr
+   - Meow
+   - Gull, seagull
+   - Whale vocalization
+   - Mosquito
+   - Bee, wasp, etc.
+   - Frog
+   - Canidae, wild dogs, wolves
+   - Roar
+
+singing:
+   - Rapping
+   - Child singing
+   - Singing
+   - Tap dance
+   - Female singing
+   - Synthetic singing
+   - Chant
+   - Male singing
+
+crowd sound:
+   - Crowd
+   - Children playing
+   - Booing
+   - Whispering
+   - Conversation
+   - Cheering
+   - Children shouting
+   - Applause
+   - Human group actions
+   - Hoot
+
+human speech:
+   - Speech
+   - Speech synthesizer
+   - Male speech, man speaking
+   - Female speech, woman speaking
+   - Child speech, kid speaking
+   
+human sound:
+   - Crying, sobbing
+   - Sneeze
+   - Chewing, mastication
+   - Baby laughter
+   - Wail, moan
+   - Whistle
+   - Screaming
+   - Throat clearing
+   - Stomach rumble
+   - Human locomotion
+   - Hum
+   - Yell
+   - Narration, monologue
+   - Yodeling
+   - Chuckle, chortle
+   - Snicker
+   - Laughter
+   - Whoop
+   - Yawn
+   - Whistling
+   - Sigh
+   - Babbling
+   - Shout
+   - Mantra
+   - Pant
+   - Battle cry
+   - Hiccup
+   - Cough
+   - Giggle
+   - Yip
+   - Screech
+   - Wheeze
+   - Grunt
+   - Digestive
+   - Baby cry, infant cry
+   - Bellow
+   - Gasp
+   - Belly laugh
+   - Finger snapping
+   - Burping, eructation
+   - Snort
+   - Biting
+   - Groan
+   - Human sounds
+   - Human voice
+   - Gargling
+   - Whimper
+   - Snoring
+   - Sizzle
+   - Heart sounds, heartbeat
+   - Hubbub, speech noise, speech babble
+   - Respiratory sounds
+   - Breathing
+   - Hands
+
+alarm, bell and siren:
+   - Doorbell
+   - Siren
+   - Ringtone
+   - Mechanical bell
+   - Ringing tone, ringback tone
+   - Telephone bell ringing
+   - Telephone
+   - Alert
+   - Siren
+   - Mechanical bell
+   - Ringtone
+   - Telephone Ringing
+   - Church bell
+   - Bicycle bell
+   - Train whistle
+   - Alarm
+   - Bell
+   - Fire engine, fire truck (siren)
+   - Train horn
+   - Foghorn
+   - Kettle whistle
+   - Car alarm
+   - Error signal
+   - Ambulance (siren)
+   - Fire alarm
+   - Police car (siren)
+   - Alarm clock
+   - Change ringing (campanology)
+   - Dial tone
+   - Tuning fork
+   - Tick-tock
+   - Music
+   - Jingle bell
+
+mechanical and electrical sounds:
+   - Clickety-clack
+   - Windscreen wiper, windshield wiper
+   - Power saw, circular saw, table saw
+   - Fizz
+   - Whir
+   - Engine knocking
+   - Reversing beeps
+   - Sound reproduction
+   - Beep, bleep
+   - Ping
+   - Typewriter
+   - Camera
+   - Cupboard open or close
+   - Tire squeal, skidding
+   - Velcro, hook and loop fastener
+   - Power windows, electric windows
+   - Roll   
+   - Subway, metro, underground
+   - Crunch
+   - Grind
+   - Steam whistle
+   - Electronic tuner
+   - Sonar
+   - Computer keyboard
+   - Keypress tone
+   - Telephone dialing, DTMF
+   - Paper rustling
+   - Mains hum
+   - Sine wave
+   - Chorus effect
+   - Electric rotor drone, quadcopter
+   - Single-lens reflex camera
+   - Ratchet, pawl
+   - Buzzer
+   - Microphone
+   - Clicking
+   - Static
+
+tools and equipment:
+   - Whip
+   - Tap
+   - Mechanical fan
+   - Vacuum cleaner
+   - Sewing machine
+   - Air conditioning
+   - Microwave oven
+   - Printer
+   - Refrigerator
+   - Electric shaver, electric razor
+   - Clock
+   - Gush
+   - Clatter
+   - Chop
+   - Plop
+   - Whoosh, swoosh, swish
+   - Artillery fire
+   - Gunshot, gunfire
+   - Machine gun
+   - Cap gun
+   - Chain
+   - Tape hiss
+   - Cowbell
+   - Lock
+   - Chime
+   - Pump (liquid)
+   - Cash register
+   - Filing (rasp)
+   - Patter
+   - Washing machine
+   - Smoke detector, smoke alarm
+   - Cellphone buzz, vibrating alert
+   - Radio
+   - Sound equipment
+   
+household and indoor sounds:
+   - Door
+   - Bouncing
+   - Sniff
+   - Scissors
+   - Squish
+   - Inside, public space
+   - Dental drill, dentists drill
+   - Brief tone
+   - Boiling
+   - Scratch
+   - Knock
+   - Crumpling, crinkling
+   - Squeal
+   - Bathtub (filling or washing)
+   - Kitchen and dining room sounds
+   - Chopping (food)
+   - Pour
+   - Steam
+   - Glass chink, clink
+   - Walk, footsteps
+   - Sweeping
+   - Knife
+   - Blender, food processor
+   - Rub
+   - Scrape
+   - Sink (filling or washing)
+   - Gears
+   - Packing tape, duct tape
+   - Cutlery, silverware
+   - Sliding door
+   - Crockery breaking and smashing
+   - Drawer open or close
+   - Hair dryer
+   - Shuffling cards
+   - Keys jangling
+   - Video game sound
+   - Toothbrush
+   - Electric toothbrush
+   - Television
+   - Fixed-wing aircraft, airplane
+   - Busy signal
+   - Carbon monoxide detector, CO detector
+   - Civil defense siren
+   - Bathroom sounds
+   - Ding-dong
+   - Typing
+   - White noise, pink noise
+   - Inside, small room
+   - Inside, large room or hall
+   - Wood
+   - Deformable shell
+   - Surface contact
+   - Toilet flush
+   - Stairs
+   - Mechanisms
+   - Zing  
+   
+sound effects and noises:
+   - Sound effect
+   - Effects unit
+   - Jingle, tinkle
+   - Coin (dropping)
+   - Creak
+   - Dong, bong
+   - Splash, splatter
+   - Snap
+   - Rustle
+   - Clip-clop
+   - Clapping
+   - Squeak
+   - Slurp, drinking straw
+   - Slam
+   - Stir
+   - Hiss
+   - Outside, urban or manmade
+   - Other sourceless
+   - Writing
+   - Buzz
+   - Glass
+   - Tick
+   - Frying (food)
+   - Choir
+   - Liquid
+   - Arrow
+   - Zipper (clothing)
+   - Dishes, pots, and pans
+   - Basketball bounce
+   - Honk
+   - Boing
+   - Pulse
+   - Cacophony
+   - Fireworks
+   - Firecracker
+   - Distortion
+   - Wobble
+   - Sanding 
+   - Fart
+   - Ding
+   - Fire
+   - Wildfire
+   - Humming
+   - Burst, pop
+   - Shower
+   - Water
+   - Water tap, faucet
+   - Slosh
+   - Spray
+   - Shuffle
+   - Reverberation
+   - Echo
+
+impact and breaking sounds:
+   - Clunk
+   - Smash, crash
+   - Breaking
+   - Glass shatter
+   - Whack, thwack
+   - Crackle
+   - Stomp, stamp
+   - Slap, smack
+   - Crack
+   - Rumble
+   - Tearing
+   - Bang
+   - Thunk
+   - Explosion
+   - Unknown sound
+   - Noise
+   - Thump, thud
+   - Fusillade
+   - Flap
+   - Run
+   - Clang
+   - Generic impact sounds
+
+construction sound:
+   - Drill
+   - Power tool
+   - Lawn mower
+   - Hammer
+   - Tools
+   - Jackhammer
+   - Chainsaw
+   - Sawing
+   - Pulleys
