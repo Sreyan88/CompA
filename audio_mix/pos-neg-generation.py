@@ -8,6 +8,16 @@ import re
 import random
 import string
 from copy import deepcopy as dc
+import pandas as pd
+import yaml
+from tqdm import tqdm
+import json
+import argparse
+
+parser = argparse.ArgumentParser(description='A simple command-line program.')
+parser.add_argument('--audio', '-a', default="./data/final_audio.csv")
+parser.add_argument('--sound_class', '-s', default="./data/global_sound.yml")
+args = parser.parse_args()
 
 class Node:
     def __init__(self, value=None, left=None, right=None, next=None):
@@ -248,7 +258,7 @@ def reverse_it(word, ind):
     word = word.replace(res1, right_string)
     # print(word)
     return word
-    
+
 def findall(a, b):
     save = []
     for xxx in range(len(a)):
@@ -256,8 +266,7 @@ def findall(a, b):
             save.append(xxx)
     return save
 
-from copy import deepcopy as dc
-    
+
 def make_negatives(exps):
     all_negs = []
     for i in range(len(exps)):
@@ -274,8 +283,8 @@ def make_negatives(exps):
             temp = dc(exps[i])
             temp = temp[:j] + '+' + temp[j+1:]
             all_negs.append(temp)
-            
-        
+
+
         if '+' in exps[i]:
             ind = []
             for xx in range(len(exps[i])):
@@ -283,18 +292,15 @@ def make_negatives(exps):
                     ind.append(xx)
             for j in ind:
                 all_negs.append(reverse_it(exps[i],j))
-                
+
     return list(set(all_negs))
 
 
 # In[ ]:
 
 
-import pandas as pd
-import yaml
-from tqdm import tqdm
-import json
-a = pd.read_csv('final_audio (1).csv')
+
+a = pd.read_csv(args.audio)
 
 
 # In[ ]:
@@ -306,7 +312,7 @@ all_exp = list(set(a['sub_exp'].values))
 # In[ ]:
 
 
-with open('global_sound (1).yml', 'r') as file:
+with open(args.sound_class, 'r') as file:
     dict_temp = yaml.safe_load(file)
 
 
@@ -393,7 +399,7 @@ for i in all_exp:
         final[i]['captions'][new_cap]['negatives'] = sub_Expressions_to_labels(expression_to_text(negatives, [c[1]],[c[2]]),reverse_replacement_map)
 
     # print(json.dumps(final,sort_keys=True, indent=4))
-    
+
 
 
 # In[ ]:
@@ -427,4 +433,3 @@ for xx in tqdm(range(len(new_exps))):
 
 saving_df = pd.DataFrame(saving, columns=['path', 'caption', 'num_of_pos', 'num_of_neg', 'dataset', 'split_name'])
 saving_df.to_csv('final_new.csv', index=False)
-

@@ -5,7 +5,7 @@ This is the official repository for the paper **CompA: Addressing the Gap in Com
 [[`Website`](https://sreyan88.github.io/compa_iclr/)] [[`Paper`](https://openreview.net/pdf?id=86NGO8qeWs)] [[`Checkpoint`]()] [[`CompA-order`](https://drive.google.com/file/d/1A_HDH0sO6Pp-kvdcTJrAA6MJZiItHZTQ/view?usp=sharing)] [[`CompA-attribute`](https://drive.google.com/file/d/1vWpq2fTcT8T7ec8pZ_EG2v29PwJPfcJm/view?usp=sharing)] [[`CompA-AudioSet`](https://drive.google.com/file/d/1FIC9XBQStw9EUBVxKJXVKTQpPIkfy0cZ/view?usp=sharing)] [[`Stage2 CSV`](https://drive.google.com/file/d/1yDqkEYZi44yqXJPLw50bacmhkgRJJ_0b/view?usp=sharing)] [[`Stage3 CSV`](https://drive.google.com/file/d/1GF2Fc-sQUGA52LXwfLjNSL4Hl481BqYm/view?usp=sharing)]
 
 ## Setup
-You are required to install the dependencies: `pip install -r requirements.txt`. If you have [conda](https://www.anaconda.com) installed, you can run the following: 
+You are required to install the dependencies: `pip install -r requirements.txt`. If you have [conda](https://www.anaconda.com) installed, you can run the following:
 
 ```shell
 cd CompA && \
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Training
 
-1. For **Vanilla Training**: 
+1. For **Vanilla Training**:
 
 Use the following command after updating the train and val file in "/src/laion_clap/train.sh" from the "src-stage1/laion_clap/" directory
 
@@ -33,6 +33,13 @@ sh resume.sh
 ```
 
 3. For training with **modular contrastive learning**:
+
+To generate the train file for stage 3 training, run the following command. The demo files required to run the code have been shared as well.
+
+```shell
+cd audio_mix
+python pos-neg-generation.py -audio ./data/final_audio.csv -sound_class ./data/global_sound.yml
+```
 
 Use the following command after updating the resume ckpt (the ckpt from training with compositionally-aware hard negatives), train and val file in "/src-stage3/laion_clap/resume.sh" from the "src-stage3/laion_clap/" directory
 
