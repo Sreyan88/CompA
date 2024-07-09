@@ -56,9 +56,9 @@ The evaluation files need `hook.py` from [CLAP](https://github.com/LAION-AI/CLAP
 ```shell
 python ./evaluation/zshot.py <test_files_dir_path> <class_label_to_idx_file_path> <clap_ckpt_path>
 ```
-test_files_dir_path - Path to the folder which contains audio files and their respective jsons. This format can be obtained by using the [audio-dataset](https://github.com/LAION-AI/audio-dataset/tree/main) repo.
+`test_files_dir_path` - Path to the folder which contains audio files and their respective jsons. This format can be obtained by using the [audio-dataset](https://github.com/LAION-AI/audio-dataset/tree/main) repo.
 <br>
-class_label_to_idx_file_path - Path to the file which contains a class label and its respective index in the format of a Python dictionary. These files can be found in `CLAP/class_labels`.
+`class_label_to_idx_file_path` - Path to the file which contains a class label and its respective index in the format of a Python dictionary. These files can be found in `CLAP/class_labels`.
 
 2. For **CompA-Order and CompA-Attribute evaluations**:
 
